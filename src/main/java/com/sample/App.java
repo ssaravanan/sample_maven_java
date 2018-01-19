@@ -20,4 +20,11 @@ public class App
     	return id;
 
     }
+
+    public String generateUniqueKey2(){
+
+    	String id = UUID.randomUUID().toString();
+    	return id;
+
+    }
 }
